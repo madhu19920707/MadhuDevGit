@@ -4,6 +4,7 @@ public class ContactController {
         System.debug('====searchValue======'+searchValue);
         System.debug('====searchValue======'+searchValue);
         System.debug('====searchValue======'+searchValue);
+        System.debug('====searchValue======'+searchValue);
         return [SELECT Id, Name, Title, Phone, Email FROM Contact  WHERE Name =:searchValue LIMIT 10];
     }
 }
